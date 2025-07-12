@@ -449,9 +449,41 @@ img {
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .home__title {
+    font-size: 100px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home__title {
+    font-size: 100px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home__title {
+    font-size: 100px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
   .home__img {
     display: none;
+  }
+
+  .home__title {
+    font-size: 100px;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  .about__text {
+    text-align: justify;
+    font-size: 14px;
   }
 }
 
